@@ -1,7 +1,13 @@
 {
-  "dependencies": {
-    "dotenv": "^16.4.7",
-    "grammy": "^1.35.0",
-    "nodemon": "^3.1.9"
-  }
+	"dependencies": {
+		"dotenv": "^16.4.7",
+		"grammy": "^1.35.0",
+		"nodemon": "^3.1.9"
+	},
+	"scripts": {
+		"start": "node bot.js"
+	},
+	"devDependencies": {
+		"@types/node": "^22.13.10"
+	}
 }
